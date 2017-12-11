@@ -5,7 +5,14 @@ Es como una hoja de excel, se coloca informacion relevante x, se puede guardar c
 
 
 * BLOCKCHAIN
-Multiples bloques conforman un blockchain, es una cadena en la cabecera tiene un id en el cual tiene informacion del bloque anterior.
+Es un software que une cada una de las terminales que está minando transacciones. Este software es el que decide como se van organizando nuevos bloques y como se seguirá alimentando el network.
+Cada bloque tiene un Hash Pointer, un identificador único que nos dice cual fue el anterior bloque.
+Cada bloque tiene un timestamp, estampa del momento en que fue creado.
+Cada bloque tiene datos de transacción. ¿Quien? ¿Importe? ¿Desde que nodo? Todo eso constituye en nuevo bloque.
+Las transacciones son IRREVERSIBLES.
+
+Llave Pública: Identifica a cada una de las personas que hace las transacciones. Se puede compartir. Comunica con la billetera.
+Llave Privada: Cifra cada una de las transacciones. Es para ejecutar la transacción.
 
 * MINING O MINERIA
 Es un acto que realizan ciertas personas a nivel mundia, donde se colocan equipos u ordenadores a hacer tareas especificas para validar transacciones y generar nuevos bloques que a su vez genera nuevas monedas. la Mineria genera la capa de seguridad que necesita la criptocurrency para funcionar o el blockchain.
